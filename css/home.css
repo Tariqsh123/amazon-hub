@@ -707,9 +707,9 @@ section {
     width: 100%
 }
 
-header .topbar .social-icon a.top-a svg {
+/* header .topbar .social-icon a.top-a svg {
     filter: brightness(0);
-}
+} */
 
 .dropdown-menu.show,
 .nav {
@@ -760,7 +760,7 @@ h2 {
 
 .nav-link:focus,
 .nav-link:hover {
-    color: #ff9900;
+    color: #e6810a;
 }
 
 .nav-link:focus-visible {
@@ -971,7 +971,7 @@ section.product-sale .slider-box .c-top {
 
 .btn-live:hover,
 .fixed-btn-wa {
-    background: #ff9900
+    background: #e6810a
 }
 
 .accordion-item:first-of-type {
@@ -1195,13 +1195,13 @@ header {
 }
 
 header .topbar {
-    background: #07a1f7;
+    background: #192939;
     padding: 10px 0 4px
 }
 
 header .topbar .top-a {
     align-items: center;
-    color: #000;
+    color: #fff;
     display: inline-flex;
     font-size: 14px;
     font-weight: 500;
@@ -1211,8 +1211,8 @@ header .topbar .top-a {
 
 header .topbar .social-icon a i,
 header .topbar .top-a i {
-    color: #000;
-    /* filter: invert(1) */
+    color: white;
+    filter: invert(1)
 }
 
 header .topbar .top-a svg {
@@ -1266,7 +1266,7 @@ header .navbar .navbar-nav a:focus,
 header .navbar .navbar-nav a:hover,
 header .navbar .navbar-nav span:focus,
 header .navbar .navbar-nav span:hover {
-    color: #ff9900
+    color: #e6810a
 }
 
 .fixed-btn-wa,
@@ -1306,7 +1306,7 @@ header .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu a {
 header .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu a:focus,
 header .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu a:hover {
     background: none;
-    color: #ff9900;
+    color: #e6810a;
     transition: .5s
 }
 
@@ -1323,7 +1323,7 @@ header .navbar .navbar-nav .dropdown-menu {
 
 header .header-btn,
 header.fixed-top .btn-live {
-    border: 2px solid #ff9900 !important
+    border: 2px solid #e6810a !important
 }
 
 .footer .social-icon a,
@@ -1337,7 +1337,7 @@ header .navbar .navbar-nav .dropdown-menu li a {
 
 header .navbar .navbar-nav .dropdown-menu li a.active {
     background: rgba(41, 54, 69, 1) !important;
-    color: #ff9900 !important
+    color: #e6810a !important
 }
 
 header .navbar-toggler {
@@ -1403,7 +1403,7 @@ header .header-btn {
 
 .footer .con:hover,
 .footer a:hover {
-    color: #ff9900 !important
+    color: #e6810a !important
 }
 
 .footer .h6 {
@@ -1462,8 +1462,8 @@ header .header-btn {
 }
 
 .footer .social-icon a i:hover {
-    border-color: #ff9900;
-    color: #ff9900
+    border-color: #e6810a;
+    color: #e6810a
 }
 
 .footer .c-footer {
@@ -1540,17 +1540,17 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ff9900;
+    background-color: #e6810a;
     border-radius: 25px
 }
 
 ::-moz-selection {
-    background-color: #ff9900;
+    background-color: #e6810a;
     color: #efefef
 }
 
 ::selection {
-    background-color: #ff9900;
+    background-color: #e6810a;
     color: #efefef
 }
 
@@ -1676,7 +1676,7 @@ ul li {
 
 .btn-order,
 .btn-order:after {
-    background: linear-gradient(45deg, #ff9900, #ff9900)
+    background: linear-gradient(45deg, #e6810a, #e6810a)
 }
 
 .btn-live:hover .web-icon:after {
@@ -1687,7 +1687,7 @@ ul li {
 }
 
 .btn-order {
-    border: 1px solid #ff9900;
+    border: 1px solid #e6810a;
     border-radius: 30px;
     color: #000;
     overflow: hidden;
@@ -1745,8 +1745,8 @@ ul li {
 }
 
 .btn-green {
-    background: #07a1f7;
-    border: 1px solid #07a1f7;
+    background: #192939;
+    border: 1px solid #192939;
     border-radius: 30px;
     color: #efefef;
     padding: 13px 30px 13px 50px !important
@@ -1757,7 +1757,7 @@ ul li {
     /* background: #efefef; */
     border-radius: 40px;
     bottom: 0;
-    color: #07a1f7;
+    color: #192939;
     display: flex;
     height: 40px;
     justify-content: center;
@@ -1918,9 +1918,9 @@ section.mid-sec .box {
 
 section.mid-sec .box-line {
     background-clip: padding-box, border-box;
-    background-image: linear-gradient(#efefef, #efefef), linear-gradient(70deg, #ff9900, #ff9900);
+    background-image: linear-gradient(#efefef, #efefef), linear-gradient(70deg, #e6810a, #e6810a);
     background-origin: border-box;
-    border: 2px solid #ff9900;
+    border: 2px solid #e6810a;
     border-radius: 15px;
     display: grid;
     gap: 5px;
@@ -1968,7 +1968,7 @@ section.amazon-saler {
 }
 
 section.amazon-saler .container {
-    background: #07a1f7;
+    background: #192939;
     border-radius: 13px;
     padding: 40px;
     position: relative;
@@ -1976,13 +1976,13 @@ section.amazon-saler .container {
 }
 
 section.amazon-saler .container .h2 {
-    color: #000;
+    color: #fff;
     font-size: 29px
 }
 
 section.amazon-saler .container .title,
 section.social-platform .container .title {
-    color: #000;
+    color: #fff;
     display: block;
     font-size: 16px;
     font-weight: 600;
@@ -1990,15 +1990,17 @@ section.social-platform .container .title {
 }
 
 section.amazon-saler .container p {
-    color: #000;
+    color: #fff;
     font-size: 14px
 }
 .amazon-saler-boxes img {
-    filter: brightness(0);
+    background: white;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 section.reviews .review-box {
-    background: #ff9900;
+    background: #e6810a;
     padding: 30px 40px
 }
 
@@ -2050,7 +2052,7 @@ section.faqs .accordion {
 
 section.faqs .accordion .accordion-item {
     border: 0;
-    border-left: 2px solid #ff9900;
+    border-left: 2px solid #e6810a;
     border-radius: 10px;
     margin: 10px 0;
     overflow: hidden
@@ -2060,12 +2062,13 @@ section.faqs .accordion .accordion-item .accordion-button {
     background: #f5f4f4 !important;
     box-shadow: none !important;
     color: #000 !important;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px
 }
 
 section.faqs .accordion .accordion-item .accordion-button:after {
     background-blend-mode: darken;
-    background-color: #ff9900;
+    background-color: #e6810a;
     background-position: 50%;
     background-size: 16px;
     border-radius: 30px;
@@ -2135,7 +2138,8 @@ section.bottom-cta {
 }
 
 section.bottom-cta .container {
-    background: #07a1f7;
+    background: #192939;
+    color: white;
     border-radius: 27px;
     padding: 5% 20px
 }
@@ -2146,7 +2150,7 @@ section.bottom-cta .container p {
 
 section.bottom-cta .container .btn-live {
     align-items: center;
-    border: 2px solid #ff9900;
+    border: 2px solid #e6810a;
     display: inline-flex !important;
     font-size: 18px
 }
@@ -2196,7 +2200,7 @@ section.social-platform {
 }
 
 section.social-platform .container {
-    background: #07a1f7;
+    background: #192939;
     border-radius: 13px;
     padding: 40px 0 0 40px;
     position: relative;
@@ -2211,19 +2215,19 @@ section.package .box {
 }
 
 section.social-platform .container .h2 {
-    color: #000;
+    color: #fff;
     font-size: 28px
 }
 
 section.social-platform .container p {
-    color: #000;
+    color: #fff;
     font-size: 14px;
     margin-bottom: 5px
 }
 
 section.social-platform .container .service-link {
-    color: #fff;
-    background-color: black;
+    color: #000;
+    background-color: #e6810a;
     padding: 5px 10px;
     border-radius: 20px;
     display: inline-block;
@@ -2313,9 +2317,9 @@ section.package .box:hover {
 
 section.package .box-two {
     background-clip: padding-box, border-box;
-    background-image: linear-gradient(#efefef, #efefef), linear-gradient(70deg, #ff9900, #ff9900);
+    background-image: linear-gradient(#efefef, #efefef), linear-gradient(70deg, #e6810a, #e6810a);
     background-origin: border-box;
-    border: 4px solid #ff9900;
+    border: 4px solid #e6810a;
     position: relative
 }
 
@@ -2337,7 +2341,7 @@ section.services-area .box .h6 {
 }
 
 section.services-area .box:hover {
-    background: linear-gradient(135deg, #ff9900, #ff9900);
+    background: linear-gradient(135deg, #e6810a, #e6810a);
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .2)
 }
 
@@ -2364,7 +2368,7 @@ section.cta img {
 }
 
 section.product-sale {
-    background: #ff9900;
+    background: url(../images/slider-bg.webp) top/100% 75% no-repeat;
     padding-bottom: 0
 }
 
@@ -2710,7 +2714,7 @@ section.marketing .h1 {
     }
 
     header .header-btn {
-        border: 2px solid #ff9900
+        border: 2px solid #e6810a
     }
 
     .footer {
@@ -2739,7 +2743,7 @@ section.marketing .h1 {
     }
 
     section.bottom-cta .container {
-        background: linear-gradient(0deg, #ff9900, #ff9900);
+        background: linear-gradient(0deg, #e6810a, #e6810a);
         padding: 70px 20px
     }
 
@@ -2756,7 +2760,7 @@ section.marketing .h1 {
     }
 
     section.product-sale {
-        background: linear-gradient(0deg, #ff9900, #ff9900);
+        background: linear-gradient(0deg, #e6810a, #e6810a);
         padding-top: 100px
     }
 
@@ -2824,3 +2828,130 @@ section.marketing .h1 {
         }
         
         }
+
+        #pills-new-tab,#pills-appeal-tab{
+            color: #000;
+            background: #e6810a;
+            border-radius: 20px;
+        }
+
+
+#hero-section-main{
+    width:100%;
+    padding:110px 20px 60px;
+    overflow:hidden;
+}
+
+.hero-section-container{
+    max-width:1300px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+}
+
+.hero-section-content{
+    flex:1;
+}
+.hero-section-title{
+    font-size:45px;
+    font-weight:800;
+    line-height:1.15;
+    color:#111;
+    margin-bottom:25px;
+}
+.hero-section-title span{
+    color: #e6810a;
+    font-size:45px;
+    font-weight:800;
+    line-height:1.15;
+    font-style: normal;
+}
+
+.hero-section-description{
+    margin-bottom:18px;
+    max-width:620px;
+}
+
+.hero-section-buttons{
+    display:flex;
+    gap:18px;
+    margin-top:35px;
+    flex-wrap:wrap;
+}
+
+.hero-section-btn{
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:50px;
+    font-weight:700;
+}
+
+.hero-section-btn-primary{
+    background:#e6810a;
+    color:#fff;
+}
+.hero-section-btn-secondary{
+    background-color: #192939;
+    color: white;
+}
+.hero-section-image-box{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-section-image{
+    width:100%;
+    max-width:500px;
+    animation:hero-section-float 5s ease-in-out infinite;
+}
+
+@keyframes hero-section-float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+@media(max-width:992px){
+
+.hero-section-container{
+    flex-direction:column;
+    gap: 30px;
+    text-align:center;
+}
+
+.hero-section-title{
+    font-size:44px;
+}
+.hero-section-buttons{
+    justify-content:center;
+}
+}
+
+@media(max-width:576px){
+
+#hero-section-main{
+    padding:40px 20px;
+}
+
+.hero-section-title{
+    font-size:40px;
+}
+
+.hero-section-btn{
+    width:100%;
+    text-align:center;
+}
+}
