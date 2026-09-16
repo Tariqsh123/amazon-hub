@@ -1184,7 +1184,7 @@ header {
 }
 
 header .topbar {
-    background: #050C12;
+    background: #061a1b;
     padding: 10px 0 4px
 }
 
@@ -1237,7 +1237,7 @@ header .nav-link svg {
 }
 
 header .navbar {
-    padding: 15px 0
+    padding: 15px 0;
 }
 
 header .navbar .navbar-nav {
@@ -1954,7 +1954,7 @@ section.amazon-saler {
 }
 
 section.amazon-saler .container {
-    background: #050C12;
+    background: #061a1b;
     border-radius: 13px;
     padding: 40px;
     position: relative;
@@ -2117,7 +2117,7 @@ section.bottom-cta {
 }
 
 section.bottom-cta .container {
-    background: #050C12;
+    background: #061a1b;
     color: #F8F8F8;
     border-radius: 27px;
     padding: 5% 20px
@@ -2179,7 +2179,7 @@ section.social-platform {
 }
 
 section.social-platform .container {
-    background: #050C12;
+    background: #061a1b;
     border-radius: 13px;
     padding: 40px 0 40px 40px;
     position: relative;
